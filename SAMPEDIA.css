@@ -1,0 +1,238 @@
+/* Reset styles */
+header {
+  background-image: url('header\ kece.png'); /* Ganti dengan path menuju gambar header */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 35px 0;
+}
+header h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family:  cursive;
+}
+
+header h1 {
+  font-size: 3em; /* Ubah ukuran font */
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Georgia, serif; /* Ganti dengan font yang sesuai */
+  transition: color 0.3s ease; /* Efek hover */
+}
+
+header h1:hover {
+  color: #f00f0f; /* Ubah warna teks saat hover */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+.container h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 0; /* Sembunyikan teks */
+}
+
+.container h1 img {
+  max-width: 100px;
+  height: 70px;
+}
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #f00f0f;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Georgia, serif;
+    line-height: 1.6;
+  }
+  
+  
+  header h1 {
+    font-size: 2em;
+  }
+
+  .search-icon {
+    cursor: pointer;
+    position: absolute; 
+    top: 10px; 
+    right: 20px; 
+  }
+  
+  .search-icon svg {
+    fill: #fff;
+    width: 35px;
+    height: 35px;
+  }
+
+  .search-icon svg {
+    fill: #fff; 
+    width: 35px;
+    height: 35px;
+    transition: fill 0.3s ease; /* Transisi perubahan warna */
+  }
+  
+  .search-icon:hover svg {
+    fill: #f00f0f; /* Warna ikon saat hover */
+  }
+  
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('canva.png') center/cover no-repeat;
+    color: #e2dddd;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #e64625;
+  }
+  
+  .featured {
+    text-align: center;
+    padding: 100px 0;
+    background: #ece4e4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.featured h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-family: Georgia, serif;
+}
+
+.produk-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+  .produk-container {
+    width: 200px;
+    height: 250px;
+    border: 1px solid #fdfafa;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .produk-img {
+    width: 185px; /* Ubah lebar gambar sesuai kebutuhan */
+    height: 150px; /* Ubah tinggi gambar sesuai kebutuhan */
+    margin-bottom: 12px; /* Jarak antara gambar dan judul produk */
+  }
+  
+  .produk-title {
+    font-size: 5px;
+    margin-top: 5px; /* Jarak antara judul produk dan harga */
+  
+  }
+  
+  .produk-price {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px; /* Jarak antara harga dan tombol beli */
+  }
+
+.produk-3 .produk-price {
+    margin-bottom: 20px; /* Ubah nilai sesuai kebutuhan */
+}
+  
+.buy-button {
+  padding: 5px 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Efek transisi */
+}
+
+.buy-button:hover {
+  background-color: #111010; /* Warna latar belakang saat hover */
+  color: #de1c1c; /* Warna teks saat hover */
+}
+
+  
+  
+  /* Footer styles */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
