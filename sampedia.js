@@ -4,9 +4,13 @@ function search() {
     const searchInput = document.createElement('input');
     searchInput.type = 'text';
     searchInput.placeholder = 'Search...';
-    searchInput.style.display = 'none';
+    
     document.querySelector('header').appendChild(searchInput);
-
+// Ubah posisi elemen pencarian ke sebelah kanan
+    searchInput.style.position = 'absolute'; // Mengatur elemen agar bisa diposisikan secara bebas
+    searchInput.style.top = '85px';          // Jarak dari atas
+    searchInput.style.right = '10px';        // Jarak dari kanan
+    searchInput.style.display = 'none';      // Awalnya disembunyikan
     searchIcon.addEventListener('click', () => {
         searchInput.style.display = searchInput.style.display === 'none' ? 'block' : 'none';
     });
