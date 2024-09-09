@@ -47,12 +47,17 @@ function productSlider() {
 
     const nextButton = document.createElement('button');
     nextButton.textContent = 'Next';
+    
     nextButton.addEventListener('click', nextSlide);
 
     const prevButton = document.createElement('button');
     prevButton.textContent = 'Prev';
     prevButton.addEventListener('click', prevSlide);
-
+nextButton.style.position = 'absolute';
+nextButton.style.right = '740px'; // Jarak dari kanan
+nextButton.style.top = '147%'; // Lebih turun dari tengah (70% dari atas)
+nextButton.style.transform = 'translateY(-50%)'; // Agar tetap sejajar meskipun turun
+nextButton.style.zIndex = '10'; // Agar tombol berada di atas elemen lain
     productGrid.parentNode.insertBefore(prevButton, productGrid);
     productGrid.parentNode.insertBefore(nextButton, productGrid.nextSibling);
 
